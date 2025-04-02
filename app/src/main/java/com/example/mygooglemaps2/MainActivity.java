@@ -86,6 +86,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         myMap = googleMap; // Asigna el mapa a la variable global
         // Crea un objeto LatLng con la latitud y longitud de la ubicación actual
         LatLng uns = new LatLng(currentLocation.getLatitude(), currentLocation.getLongitude());
+        //Latitud y longitud de la Universidad Nacional de Salta
+        //LatLng uns = new LatLng(-9.1211631,-78.5148755);
         // Añade un marcador en el mapa en la ubicación actual con el título "My Ubicación"
         myMap.addMarker(new MarkerOptions().position(uns).title("My Ubicación"));
         // Mueve la cámara del mapa hacia la ubicación del marcador
