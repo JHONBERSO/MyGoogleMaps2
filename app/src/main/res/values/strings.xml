@@ -2,5 +2,5 @@
     <string name="app_name">MyGoogleMaps2</string>
 
     <!-- Clave API para Google Maps; se referencia en el AndroidManifest -->
-    <string name="my_api_key">AIzaSyC_SBmGhvcn8QfPYX530XbUwuHAzYQsRXw</string>
+    <string name="my_api_key">TU_API_KEY</string>
 </resources>
